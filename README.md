@@ -6,6 +6,11 @@
 Aprašyta verslo logika realizuota solidity kalboje.
 
 ## Testavimas lokaliame tinkle
+Naudojant Truffle ir Ganache sutartis ištestuota lokaliame tinkle.
+Komandos 'truffle test' rezultatai:
+![Screenshot](/images/image5.png)
+3iasis Test.js aprašytas atvejis simuliuoja sutarties vykdymą. Klientas iš restorano nusiperka 'California roll' kurio kaina yra 5 eteriai. Ganache matomas balansų pakitimas - 5 eteriai atimami iš antrosios sąskaitos balanso ir pridedami prie pirmosios sąskaitos balanso:
+![Screenshot](/images/image6.png)
 
 ## Testavimas Sepolia testnet
 Kodas sukompiliuotas ir sutartis paleista sepolia testiniame tinkle, naudojant truffle komandas:
