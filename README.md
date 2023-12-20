@@ -19,4 +19,4 @@ Pagal adresą sutartis rasta Etherscan:
 ![Screenshot](/images/image2.png)
 
 Pakeitus keletą Test.js eilučių bei suvedus truffle test komandą, sutartis praeina Test.js aprašytus testus ir Sepolia tinkle:
-![Screenshot](/images/image3.png)
+![Screenshot](/images/image4.png)
