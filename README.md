@@ -1,6 +1,9 @@
 # Išmanioji sutartis
 
 ## Verslo logika
+Išmaniojoje sutartyje dalyvauja 2 šalys - sushi restoranas ir klientas.
+Restoranas ruošia ir parduoda maistą, o klientas teikia užsakymus.
+![Screenshot](/images/image7.png)
 
 ## Realizacija
 Aprašyta verslo logika realizuota solidity kalboje.
@@ -9,7 +12,7 @@ Aprašyta verslo logika realizuota solidity kalboje.
 Naudojant Truffle ir Ganache sutartis ištestuota lokaliame tinkle.
 Komandos 'truffle test' rezultatai:
 ![Screenshot](/images/image5.png)
-3iasis Test.js aprašytas atvejis simuliuoja sutarties vykdymą. Klientas iš restorano nusiperka 'California roll' kurio kaina yra 5 eteriai. Ganache matomas balansų pakitimas - 5 eteriai atimami iš antrosios sąskaitos balanso ir pridedami prie pirmosios sąskaitos balanso:
+3-iasis Test.js aprašytas atvejis simuliuoja sutarties vykdymą. Klientas iš restorano nusiperka 'California roll' kurio kaina yra 5 eteriai. Ganache matomas balansų pakitimas - 5 eteriai atimami iš antrosios sąskaitos balanso ir pridedami prie pirmosios sąskaitos balanso:
 ![Screenshot](/images/image6.png)
 
 ## Testavimas Sepolia testnet
